@@ -7,18 +7,21 @@
 //     alert(`Our items: ${Items}`)
 // }
 // else if (i === "C") {
-//     let newItems = "Jeans"
+//     let newItems = prompt("Jeans?")
 //     Items.push(newItems);
 //     console.log(`Our items: ${Items}`);
 //     alert(`Our items: ${Items}`)
 // }
 // else if (i === "U"){
-//     Items.splice(1,1,"Skirt");
+//     let p = prompt("Update position?");
+//     let q = prompt("New item like Skirt?");
+//     Items.splice(p-1,1,q);
 //     console.log(`Our items: ${Items}`);
 //     alert(`Our items: ${Items}`)
 //     }
 // else if (i === "D") {
-//     Items.splice(2,1);
+//     let w = prompt("Delete position 3 ?");
+//     Items.splice(w - 1,1);
 //     console.log(`Our items: ${Items}`);
 //     alert(`Our items: ${Items}`)
 // }

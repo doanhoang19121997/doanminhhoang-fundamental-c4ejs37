@@ -1,0 +1,31 @@
+1.
+clear()
+for(let i=0;i<3;i++){
+    lt(45);
+    text("Hello world");
+}
+2.
+function sum(a, b){
+     alert(arguments[9] + arguments[5]);
+}
+3.
+function draw_square(length, color){}
+4.
+function drawSquare(length, color){}
+for (let i = 0; i  < 30; i ++){
+	drawSquare(i * 5, 'red')
+	lt(17)
+	penup()
+    	fd(i * 2)
+5.
+clear();
+rt(20);
+let draw_star = (length) => {
+	for(let i=0;i<5;i++){
+		fd(length);
+		rt(144);
+    }
+}
+draw_star(100);
+    	pendown()
+}
